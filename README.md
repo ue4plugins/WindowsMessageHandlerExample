@@ -53,3 +53,4 @@ or email us at info@headcrash.industries
 ## References
 
 * [Introduction to UE4 Plugins](https://wiki.unrealengine.com/An_Introduction_to_UE4_Plugins)
+* [UE4 Forums: How can i add window message?](https://answers.unrealengine.com/questions/162868/how-can-i-add-window-message.html)
