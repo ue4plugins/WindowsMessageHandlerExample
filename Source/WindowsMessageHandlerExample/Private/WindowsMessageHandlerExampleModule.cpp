@@ -2,7 +2,7 @@
 
 #include "WindowsMessageHandlerExamplePrivatePCH.h"
 #include "ModuleInterface.h"
-#include "SlateApplication.h"
+#include "SlateBasics.h"
 #include "WindowsApplication.h"
 #include "WindowsMessageHelpers.h"
 
