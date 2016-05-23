@@ -14,12 +14,14 @@ namespace UnrealBuildTool.Rules
 				new string[] {
 					"Core",
                     "Slate",
-				});
+				}
+			);
 
 			PrivateIncludePaths.AddRange(
 				new string[] {
 					"WindowsMessageHandlerExample/Private",
-				});			
+				}
+			);
 		}
 	}
 }

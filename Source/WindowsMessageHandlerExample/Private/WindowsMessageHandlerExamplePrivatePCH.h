@@ -2,4 +2,5 @@
 
 #pragma once
 
-#include "Core.h"
+#include "Runtime/Core/Public/Core.h"
+#include "Runtime/Slate/Public/SlateBasics.h"

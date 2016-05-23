@@ -1,24 +1,25 @@
 {
-	"FileVersion": 3,
-	"Version": 1,
-	"VersionName": "1.0",
-	"FriendlyName": "WindowsMessageHandlerExample",
-	"Description": "Example plug-in for the IWindowsMessageHandler API.",
-	"Category": "UE4Plugins",
-	"CreatedBy": "Headcrash Industries LLC",
-	"CreatedByURL": "http://headcrash.industries",
-	"DocsURL": "",
-	"MarketplaceURL": "",
-	"SupportURL": "",
-	"Modules": [
-		{
-			"Name": "WindowsMessageHandlerExample",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		}
-	],
-	"EnabledByDefault": false,
-	"CanContainContent": false,
-	"IsBetaVersion": false,
-	"Installed": false
+  "CanContainContent": false,
+  "Category": "UE4Plugins",
+  "CreatedBy": "Headcrash Industries LLC",
+  "CreatedByURL": "http://headcrash.industries",
+  "Description": "Example plug-in for the IWindowsMessageHandler API.",
+  "DocsURL": "",
+  "EnabledByDefault": false,
+  "EngineVersion" : "4.11.0",
+  "FileVersion": 3,
+  "FriendlyName": "WindowsMessageHandlerExample",
+  "Installed": false,
+  "IsBetaVersion": false,
+  "MarketplaceURL": "",
+  "Modules": [
+    {
+      "Name": "WindowsMessageHandlerExample",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "SupportURL": "",
+  "Version": 2,
+  "VersionName": "1.1"
 }
