@@ -13,7 +13,7 @@ that use Windows messages to provide some or all of their functionality.
 
 ## Supported Platforms
 
-This plug-in was last built against **Unreal Engine 4.10**. It is intended to be
+This plug-in was last built against **Unreal Engine 4.14**. It is intended to be
 used on Windows only.
 
 
