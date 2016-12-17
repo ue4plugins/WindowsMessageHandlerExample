@@ -6,20 +6,20 @@
   "Description": "Example plug-in for the IWindowsMessageHandler API.",
   "DocsURL": "",
   "EnabledByDefault": false,
-  "EngineVersion" : "4.11.0",
+  "Version": 3,
+  "VersionName": "3.0",
+  "EngineVersion" : "4.15.0",
   "FileVersion": 3,
   "FriendlyName": "WindowsMessageHandlerExample",
   "Installed": false,
   "IsBetaVersion": false,
   "MarketplaceURL": "",
+  "SupportURL": "",
   "Modules": [
     {
       "Name": "WindowsMessageHandlerExample",
       "Type": "Runtime",
       "LoadingPhase": "Default"
     }
-  ],
-  "SupportURL": "",
-  "Version": 2,
-  "VersionName": "1.1"
+  ]
 }

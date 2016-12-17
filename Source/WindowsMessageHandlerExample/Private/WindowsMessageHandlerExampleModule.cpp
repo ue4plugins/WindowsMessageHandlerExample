@@ -1,6 +1,6 @@
 // Copyright 2016 Headcrash Industries LLC
 
-#include "WindowsMessageHandlerExamplePrivatePCH.h"
+#include "CoreMinimal.h"
 #include "ModuleInterface.h"
 #include "WindowsApplication.h"
 #include "WindowsMessageHelpers.h"
@@ -17,7 +17,7 @@ class FExampleHandler
 {
 public:
 
-	// IWindowsMessageHandler interface
+	//~ IWindowsMessageHandler interface
 
 	virtual bool ProcessMessage(HWND Hwnd, uint32 Message, WPARAM WParam, LPARAM LParam, int32& OutResult) override
 	{
@@ -38,7 +38,7 @@ class FWindowsMessageHandlerExampleModule
 {
 public:
 
-	// IModuleInterface interface
+	//~ IModuleInterface interface
 
 	virtual void FWindowsMessageHandlerExampleModule::StartupModule() override
 	{
