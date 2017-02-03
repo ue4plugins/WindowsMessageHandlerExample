@@ -10,11 +10,15 @@ to intercept and process events from the Windows message queue without having to
 modify Engine code. This is useful for integrating hardware and software SDKs
 that use Windows messages to provide some or all of their functionality.
 
+Make sure to pull the Tag that matches your Unreal Engine version. If you sync
+to Master the code may not compile, because it may depend on Engine changes that
+are not yet available in the UE4 Master branch.
+
 
 ## Supported Platforms
 
-This plug-in was last built against **Unreal Engine 4.14**. It is intended to be
-used on Windows only.
+This plug-in was last built against **Unreal Engine 4.15**.
+It is intended to be used on Windows only.
 
 
 ## Dependencies
