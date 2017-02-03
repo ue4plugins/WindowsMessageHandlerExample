@@ -8,7 +8,7 @@ namespace UnrealBuildTool.Rules
 	
 	public class WindowsMessageHandlerExample : ModuleRules
 	{
-		public WindowsMessageHandlerExample(TargetInfo Target)
+		public WindowsMessageHandlerExample(ReadOnlyTargetRules Target) : base(Target)
 		{
 			PrivateDependencyModuleNames.AddRange(
 				new string[] {
