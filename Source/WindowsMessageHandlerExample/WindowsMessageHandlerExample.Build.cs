@@ -1,4 +1,4 @@
-// Copyright 2008-2015 Deep Cove Software Ltd. All Rights Reserved.
+// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
 
 using System.IO;
 
