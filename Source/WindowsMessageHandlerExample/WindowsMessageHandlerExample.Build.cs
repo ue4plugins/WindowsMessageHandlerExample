@@ -10,7 +10,9 @@ namespace UnrealBuildTool.Rules
 	{
 		public WindowsMessageHandlerExample(ReadOnlyTargetRules Target) : base(Target)
 		{
-			PrivateDependencyModuleNames.AddRange(
+            PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+
+            PrivateDependencyModuleNames.AddRange(
 				new string[] {
 					"Core",
                     "Slate",
