@@ -1,5 +1,9 @@
 // Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
 
+#include "CoreTypes.h"
+#include "Containers/UnrealString.h"
+
+
 struct FMessageName
 {
 	uint32 Message;

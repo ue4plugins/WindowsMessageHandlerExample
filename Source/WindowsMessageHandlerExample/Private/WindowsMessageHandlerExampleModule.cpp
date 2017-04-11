@@ -1,8 +1,11 @@
 // Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
 
-#include "CoreMinimal.h"
-#include "ModuleInterface.h"
-#include "WindowsApplication.h"
+#include "Framework/Application/SlateApplication.h"
+#include "Misc/OutputDevice.h"
+#include "Modules/ModuleInterface.h"
+#include "Modules/ModuleManager.h"
+#include "Windows/WindowsApplication.h"
+
 #include "WindowsMessageHelpers.h"
 
 
