@@ -14,6 +14,7 @@ namespace UnrealBuildTool.Rules
 				new string[] {
 					"Core",
                     "Slate",
+                    "SlateCore",
 				}
 			);
 
