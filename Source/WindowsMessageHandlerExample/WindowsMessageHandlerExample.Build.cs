@@ -5,26 +5,24 @@ using System.IO;
 namespace UnrealBuildTool.Rules
 {
 	using System.IO;
-	
+
 	public class WindowsMessageHandlerExample : ModuleRules
 	{
 		public WindowsMessageHandlerExample(ReadOnlyTargetRules Target) : base(Target)
 		{
-            PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+			PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-            PrivateDependencyModuleNames.AddRange(
+			PrivateDependencyModuleNames.AddRange(
 				new string[] {
 					"Core",
-                    "Slate",
-                    "SlateCore",
-				}
-			);
+					"Slate",
+					"SlateCore",
+				});
 
 			PrivateIncludePaths.AddRange(
 				new string[] {
 					"WindowsMessageHandlerExample/Private",
-				}
-			);
+				});
 		}
 	}
 }
