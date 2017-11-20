@@ -43,7 +43,7 @@ public:
 
 	//~ IModuleInterface interface
 
-	virtual void FWindowsMessageHandlerExampleModule::StartupModule() override
+	virtual void StartupModule() override
 	{
 		// register our handler
 		FWindowsApplication* Application = GetApplication();
@@ -55,7 +55,7 @@ public:
 	}
 
 
-	virtual void FWindowsMessageHandlerExampleModule::ShutdownModule() override
+	virtual void ShutdownModule() override
 	{
 		// unregister our handler
 		FWindowsApplication* Application = GetApplication();
