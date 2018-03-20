@@ -17,7 +17,7 @@ are not yet available in the UE4 Master branch.
 
 ## Supported Platforms
 
-This plug-in was last built against **Unreal Engine 4.17**.
+This plug-in was last built against **Unreal Engine 4.19**.
 It is intended to be used on Windows only.
 
 
